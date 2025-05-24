@@ -7,5 +7,7 @@ return {
 		local lspconfig = require("lspconfig")
 
 		lspconfig.ts_ls.setup({})
+		lspconfig.cssls.setup({})
+		lspconfig.tailwindcss.setup({})
 	end,
 }
