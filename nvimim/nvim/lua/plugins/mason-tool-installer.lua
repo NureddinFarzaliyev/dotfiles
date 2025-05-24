@@ -10,10 +10,10 @@ return {
         "typescript-language-server",
 
         -- Formatters
-        -- "prettierd",
+        "prettierd",
 
         -- Linters
-        -- "eslint_d",
+        "eslint_d",
       },
       auto_update = false,
       run_on_start = true,
