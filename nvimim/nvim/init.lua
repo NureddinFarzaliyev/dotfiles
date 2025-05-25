@@ -24,3 +24,5 @@ vim.diagnostic.config({
 require("config.lazy")
 require("config.autocmds")
 require("keymaps.keymaps")
+
+vim.cmd([[colorscheme nekonight-deep-ocean]])
