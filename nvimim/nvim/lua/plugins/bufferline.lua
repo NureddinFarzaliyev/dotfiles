@@ -5,6 +5,7 @@ return {
 	config = function()
 		require("bufferline").setup({
 			options = {
+				numbers = "ordinal",
 				offsets = {
 					{
 						filetype = "NvimTree",
