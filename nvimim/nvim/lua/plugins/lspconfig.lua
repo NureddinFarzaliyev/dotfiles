@@ -9,6 +9,12 @@ return {
 
 		lspconfig.ts_ls.setup({
 			capabilities = capabilities,
+			init_options = {
+				preferences = {
+					importModuleSpecifierPreference = "non-relative",
+					importModuleSpecifierEnding = "auto",
+				},
+			},
 		})
 		lspconfig.cssls.setup({
 			capabilities = capabilities,
