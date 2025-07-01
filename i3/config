@@ -203,7 +203,7 @@ bindsym Print exec --no-startup-id flameshot gui
 
 # Colors
 # class                 border  backgr. text    indicator child_border
-client.focused          #707880 #282A2E #ffffff #2e9ef4   #707880
+client.focused          #707880 #282A2E #ffffff #707880   #707880
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
