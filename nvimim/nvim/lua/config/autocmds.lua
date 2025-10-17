@@ -9,6 +9,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 		"*.scss",
 		"*.html",
 		"*.md",
+    "*.vue",
 	},
 	callback = function()
 		vim.lsp.buf.format({ async = false })
