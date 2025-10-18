@@ -1,0 +1,4 @@
+- syntax highlighting
+- markdown formatting
+- code blocks
+- templates
