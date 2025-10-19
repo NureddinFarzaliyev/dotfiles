@@ -1,4 +1,7 @@
-- syntax highlighting
-- markdown formatting
-- code blocks
-- templates
+- [x] syntax highlighting
+- [x] markdown formatting
+- [x] code blocks
+- [x] cd into dir & run ovim
+- [x] theme
+- [x] auto cmp for links
+- [ ] templates
