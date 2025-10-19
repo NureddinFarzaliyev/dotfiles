@@ -6,3 +6,5 @@
 - [x] auto cmp for links
 - [ ] templates
 - [ ] customize
+- [ ] shortcuts such as italic, bold, heading
+- [ ] disable autocmp if not in link context
