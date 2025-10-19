@@ -5,3 +5,4 @@
 - [x] theme
 - [x] auto cmp for links
 - [ ] templates
+- [ ] customize
