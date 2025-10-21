@@ -17,11 +17,11 @@ return {
     require("luasnip.loaders.from_vscode").lazy_load()
 
     -- ADDED: attempt to require nvim-mdlink and register source
-    local has_mdlink, mdlink = pcall(require, "nvim-mdlink.cmp")
-    if has_mdlink then
-      local source = mdlink.new()
-      cmp.register_source("mdlink", source)
-    end
+    -- local has_mdlink, mdlink = pcall(require, "nvim-mdlink.cmp")
+    -- if has_mdlink then
+    --   local source = mdlink.new()
+    --   cmp.register_source("mdlink", source)
+    -- end
 
     cmp.setup({
       snippet = {
@@ -57,7 +57,7 @@ return {
         { name = "buffer" },
         { name = "path" },
         -- ADDED: include mdlink if available
-        has_mdlink and { name = "mdlink" } or nil,
+        -- has_mdlink and { name = "mdlink" } or nil,
       }),
     })
   end,
