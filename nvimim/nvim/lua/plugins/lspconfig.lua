@@ -9,7 +9,7 @@ return {
 
     local vue_ls_path = vim.fn.expand("$MASON/packages/vue-language-server/node_modules/@vue/language-server/node_modules")
 
-		vim.lsp.config("ts_ls", {
+		lspconfig.ts_ls.setup({
 			capabilities = capabilities,
 			init_options = {
         plugins = {
@@ -26,10 +26,12 @@ return {
 			},
       filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact", "vue" },
 		})
-		vim.lsp.config("cssls", {
+
+		lspconfig.cssls.setup({
 			capabilities = capabilities,
 		})
-		vim.lsp.config("tailwindcss", {
+
+		lspconfig.tailwindcss.setup({
 			capabilities = capabilities,
 		})
 	end,
