@@ -193,7 +193,7 @@ bindsym $mod+r mode "resize"
 # }
 
 # Polybar
-exec_always --no-startup-id /etc/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Wallpaper 
 exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/Dark\ Waters\ Wallpaper.jpg
