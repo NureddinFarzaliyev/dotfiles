@@ -12,6 +12,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     "*.vue",
     "*.lua",
     "*.go",
+    "*.astro",
 	},
 	callback = function()
 		vim.lsp.buf.format({ async = false })

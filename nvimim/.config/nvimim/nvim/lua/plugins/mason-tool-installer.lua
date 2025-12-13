@@ -7,9 +7,15 @@ return {
 		require("mason-tool-installer").setup({
 			ensure_installed = {
 				-- LSP servers
-				"typescript-language-server",
+        "html-lsp",
 				"css-lsp",
 				"tailwindcss-language-server",
+        "json-lsp",
+				"typescript-language-server",
+        "vue-language-server",
+        "astro-language-server",
+        "lua-language-server",
+        "gopls",
 
 				-- Formatters
 				"prettierd",

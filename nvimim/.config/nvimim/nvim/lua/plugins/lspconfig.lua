@@ -38,5 +38,9 @@ return {
     lspconfig.gopls.setup({
       capabilities = capabilities,
     })
+
+    lspconfig.astro.setup({
+      capabilities = capabilities,
+    })
 	end,
 }

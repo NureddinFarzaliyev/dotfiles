@@ -12,6 +12,7 @@ return {
         "css",
         "json",
         "markdown",
+        "astro",
       },
       highlight = { enable = true },
       indent = { enable = true },
