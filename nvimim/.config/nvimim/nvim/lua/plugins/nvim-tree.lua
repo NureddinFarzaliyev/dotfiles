@@ -9,7 +9,14 @@ return {
 		update_cwd = true,
 	},
 	config = function()
-		require("nvim-tree").setup()
+		require("nvim-tree").setup({
+      git = {
+        ignore = false,
+      },
+      filters = {
+        dotfiles = false, 
+      },
+    })
 		require("keymaps.nvim-tree")
 	end,
 }
