@@ -151,3 +151,4 @@ eval $(keychain --eval --agents ssh github_main --quick --quiet)
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/code/go/go/bin
 export GOPATH=$HOME/code/go/go
+export PATH="/home/farzaliyev/.bun/bin:$PATH"
