@@ -16,6 +16,7 @@ return {
         "astro-language-server",
         "lua-language-server",
         "gopls",
+        "jdtls",
 
 				-- Formatters
 				"prettierd",

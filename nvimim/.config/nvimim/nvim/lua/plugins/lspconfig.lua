@@ -42,5 +42,9 @@ return {
     lspconfig.astro.setup({
       capabilities = capabilities,
     })
+
+    lspconfig.jdtls.setup({
+      capabilities = capabilities,
+    });
 	end,
 }
