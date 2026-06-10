@@ -14,6 +14,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     "*.go",
     "*.astro",
     "*.java",
+    "*.xml",
 	},
 	callback = function()
 		vim.lsp.buf.format({ async = false })
