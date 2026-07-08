@@ -8,6 +8,7 @@ return {
 		local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
     local vue_ls_path = vim.fn.expand("$MASON/packages/vue-language-server/node_modules/@vue/language-server/node_modules")
+    local lombok_path = vim.fn.expand("$MASON/packages/jdtls/lombok.jar")
 
 		lspconfig.ts_ls.setup({
 			capabilities = capabilities,
@@ -44,7 +45,10 @@ return {
     })
 
     lspconfig.jdtls.setup({
-      capabilities = capabilities,
+      cmd = {
+        "jdtls",
+        string.format("--jvm-arg=-javaagent:%s", lombok_path),
+      },
     });
 	end,
 }
